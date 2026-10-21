@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#fbf7f1" />
+  <meta name="description" content="Contact Davana Cake Café for cake orders, custom cakes, and café questions." />
+  <title>Contact — Davana Cake Café</title>
+  <link rel="stylesheet" href="CSS/bootstrap.min.css" />
+  <link rel="stylesheet" href="CSS/styles.css" />
+  <script src="JS/bootstrap.bundle.min.js" defer></script>
+  <script src="JS/script.js" defer></script>
+</head>
+<body>
+  <div class="announcement"><strong>Freshly baked, always.</strong> Small batches · Big cake energy</div>
+  <header class="site-header">
+    <nav class="navbar navbar-expand-lg" aria-label="Main navigation">
+      <div class="container header-main">
+<a class="brand navbar-brand" href="index.html" aria-label="Davana Cake Café home">
+          <img src="Images/LOGO.jpg" alt="Davana Cake Café logo" class="brand-logo"><span class="brand-copy"><span class="brand-name">Davana</span><span class="brand-caption">Cake café</span></span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#cafeNav" aria-controls="cafeNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="cafeNav">
+          <div class="main-nav navbar-nav"><a class="nav-link" href="index.html">Home</a><a class="nav-link" href="about.html">Our story</a><a class="nav-link" href="product.html">The menu</a><a class="nav-link" href="contact.html" aria-current="page">Contact</a></div>
+          <button class="cart-button" type="button" data-cart-open aria-label="Open basket">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M5 8h14l-1.2 12H6.2L5 8Z"/><path d="M9 9V6a3 3 0 0 1 6 0v3"/></svg>
+            <span>Basket</span><span class="cart-count" data-cart-count>0</span>
+          </button>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="container page-intro">
+      <span class="eyebrow">We’re all ears (and cake)</span>
+<h1 class="page-title">Let’s make something <em>sweet.</em></h1>
+      <p>Custom cake question, order enquiry, or just want to say hello? Send us a note and we’ll get back to you as soon as we can.</p>
+      <p class="note">We'd love to hear from you!</p>
+      <div class="breadcrumb"><a href="index.html">Home</a> &nbsp; / &nbsp; Contact</div>
+    </section>
+
+    <section class="container contact-layout">
+      <div class="contact-card">
+        <h2>Send us a message</h2>
+        <p>Tell us a little about what you have in mind. We’ll take it from there.</p>
+        <form class="contact-form" data-demo-form data-success="Thanks for reaching out! This demo form is not connected yet.">
+          <div class="form-field"><label for="contact-name">Your name *</label><input class="form-control" id="contact-name" name="name" type="text" placeholder="Name" required /></div>
+          <div class="form-field"><label for="contact-email">Email address *</label><input class="form-control" id="contact-email" name="email" type="email" placeholder="you@example.com" required /></div>
+          <div class="form-field full"><label for="contact-topic">What can we help with?</label><select class="form-select" id="contact-topic" name="topic"><option value="" selected>Choose a topic</option><option>Custom cake enquiry</option><option>Order question</option><option>Café visit</option><option>Something else</option></select></div>
+          <div class="form-field full"><label for="contact-message">Your message *</label><textarea class="form-control" id="contact-message" name="message" placeholder="A few details would be lovely…" required></textarea></div>
+          <button class="btn btn-primary" type="submit">Send your note <span class="btn-arrow">↗</span></button>
+        </form>
+      </div>
+      <aside class="contact-details">
+        <h2>Come say hello.</h2>
+        <div class="detail-block"><strong>Email</strong><a href="mailto:hello@yourdomain.com">hello@yourdomain.com</a></div>
+        <div class="detail-block"><strong>Visit the café</strong><p>Add your café address here<br />Your town / city</p></div>
+        <div class="detail-block"><strong>Opening hours</strong><p>Add your café hours here<br />Please check before visiting</p></div>
+        <p class="detail-foot">We’ll put the kettle on.</p>
+      </aside>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="container"><div class="footer-top">
+    <div><a class="brand footer-brand" href="index.html"><img src="Images/LOGO.jpg" alt="Davana Cake Café logo" class="brand-logo"><span class="brand-copy"><span class="brand-name">Davana</span><span class="brand-caption">Cake café</span></span></a><p class="footer-about">Small-batch cakes and sweet things, made with care and a little extra love at Cafe Davana.</p></div>
+    <div class="footer-col"><h3>Explore</h3><a href="product.html">The menu</a><a href="about.html">Our story</a><a href="contact.html">Contact us</a></div>
+    <div class="footer-col"><h3>Say hello</h3><a href="mailto:hello@yourdomain.com">hello@yourdomain.com</a><p>Pickup & local delivery<br />Add café address here</p></div>
+    <div class="footer-col"><h3>A little sweetness in your inbox</h3><p>New flavors, cake news, and the occasional frosting tip.</p><form class="newsletter-form" data-demo-form data-success="Thanks for joining our sweet little list!"><label class="sr-only" for="newsletter-contact">Email address</label><input id="newsletter-contact" type="email" placeholder="Your email address" required /><button type="submit" aria-label="Subscribe">↗</button></form></div>
+  </div><div class="footer-bottom"><span>© <span data-year></span> Davana Cake Café</span><span>Made with butter, sugar & a lot of love</span></div></div></footer>
+</body>
+</html>
